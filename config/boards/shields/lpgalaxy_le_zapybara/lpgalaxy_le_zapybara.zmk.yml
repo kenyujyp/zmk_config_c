@@ -1,0 +1,12 @@
+file_format: "1"
+id: lpgalaxy_le_zapybara
+name: lpgalaxy_le_zapybara
+type: shield
+# requires: [pro_micro]  /* not sure if needed needed*/
+url: none
+features:
+  - keys
+  #- studio
+outputs:
+  - usb
+  - ble

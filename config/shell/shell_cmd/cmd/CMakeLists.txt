@@ -1,0 +1,1 @@
+zephyr_library_sources(interrupt_handler.c)

@@ -1,0 +1,4 @@
+
+config SHIELD_LPGALAXY_LE_ZAPYBARA
+    def_bool $(shields_list_contains,lpgalaxy_le_zapybara)
+
