@@ -1,6 +1,0 @@
-name: shell_cmd
-build:
-  depends:
-    - module
-  cmake: .
-  kconfig: Kconfig
