@@ -65,5 +65,3 @@ static int cmd_triggermotion(const struct shell *sh, size_t argc, char **argv) {
 /* Create shell command structure */
 /* Creating root (level 0) command "trigger_motion" with handler function (fouth param is handler) */
 SHELL_CMD_REGISTER(triggermotion, NULL, "Trigger motion ISR", cmd_triggermotion);
-
-mumble jumble
