@@ -19,4 +19,4 @@ include:
   - board: lpgalaxy_le_zapybara
     snippet: enable_ec_calibrator zmk-usb-logging
     artifact-name: lpgalaxy_le_zapybara_calibrator
-    cmake-args: -DZMK_EXTRA_MODULES="${GITHUB_WORKSPACE}/shell_cmd/" 
+    cmake-args: -DZMK_EXTRA_MODULES="${GITHUB_WORKSPACE}/module/shell_cmd/" 
