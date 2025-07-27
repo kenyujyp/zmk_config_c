@@ -1,0 +1,9 @@
+# Copyright (c) 2025 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if BOARD_LPGALAXY_LE_ZAPYBARA
+
+config ZMK_KEYBOARD_NAME
+  default "ec_board"
+
+endif
