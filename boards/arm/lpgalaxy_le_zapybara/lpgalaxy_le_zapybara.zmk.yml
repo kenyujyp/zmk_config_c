@@ -1,7 +1,6 @@
 file_format: "1"
 id: lpgalaxy_le_zapybara
-name: lpgalaxy_le_zapybara
-# requires: [pro_micro]  /* not sure if needed needed*/
+name: Le Zapybara
 url: none
 type: board
 arch: arm
