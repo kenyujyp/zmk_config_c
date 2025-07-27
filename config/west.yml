@@ -15,7 +15,6 @@ manifest:
     - name: ec-support-zmk-module
       remote: petejohanson
       revision: main
-      projects:
     - name: shell_cmd
       path: modules/shell_cmd
       revision: main
