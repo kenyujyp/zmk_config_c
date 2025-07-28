@@ -1,3 +1,4 @@
-add_subdirectory(shell_cmd)
 
 zephyr_library_include_directories(include)
+add_subdirectory(shell_cmd)
+
