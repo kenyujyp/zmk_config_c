@@ -47,3 +47,14 @@ CONFIG_PRINTK=y
 CONFIG_SHELL=y
 # Set shell log level     
 #CONFIG_SHELL_LOG_LEVEL_INF=1
+
+# Floating-point printf support
+CONFIG_CBPRINTF_COMPLETE=y
+
+# If using sensors, ensure proper shell config
+CONFIG_SENSOR=y
+CONFIG_SENSOR_SHELL=y
+
+# Optional: Reduce memory impact
+#CONFIG_CBPRINTF_FP_SUPPORT=y
+#CONFIG_CBPRINTF_FP_A_SUPPORT=y
