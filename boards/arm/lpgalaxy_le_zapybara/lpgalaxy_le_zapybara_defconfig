@@ -43,7 +43,8 @@ CONFIG_ZMK_KSCAN_EC_MATRIX_FAKE_OPEN_DRAIN=y
 CONFIG_SHELL_TAB=y
 # Enable print functions
 CONFIG_PRINTK=y
-
+# Enable shell subsystem          
+#CONFIG_SHELL=y
 # Set shell log level     
 #CONFIG_SHELL_LOG_LEVEL_INF=1
 
