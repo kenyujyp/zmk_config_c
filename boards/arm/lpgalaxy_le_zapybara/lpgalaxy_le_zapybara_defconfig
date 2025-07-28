@@ -23,7 +23,7 @@ CONFIG_ZMK_USB=y
 CONFIG_ZMK_BLE=y
 
 # Don't use for now, until the accelerometer waker is working.
-# CONFIG_ZMK_SLEEP=y
+CONFIG_ZMK_SLEEP=n
 
 CONFIG_USE_DT_CODE_PARTITION=y
 CONFIG_BUILD_OUTPUT_UF2=y
@@ -44,7 +44,8 @@ CONFIG_SHELL_TAB=y
 # Enable print functions
 CONFIG_PRINTK=y
 # Enable shell subsystem          
-#CONFIG_SHELL=y
+CONFIG_SHELL=y
+CONFIG_SENSOR_SHELL=n
 # Set shell log level     
 #CONFIG_SHELL_LOG_LEVEL_INF=1
 
