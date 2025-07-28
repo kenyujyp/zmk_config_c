@@ -52,8 +52,8 @@ CONFIG_SHELL=y
 CONFIG_CBPRINTF_COMPLETE=y
 
 # If using sensors, ensure proper shell config
-CONFIG_SENSOR=y
-CONFIG_SENSOR_SHELL=y
+#CONFIG_SENSOR=y
+#CONFIG_SENSOR_SHELL=y
 
 # Optional: Reduce memory impact
 #CONFIG_CBPRINTF_FP_SUPPORT=y
